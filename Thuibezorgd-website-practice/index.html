@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="first-part-header">
+        <div class="logo-div">
+          <a href="#">
+            <img
+              class="logo"
+              alt="Thuisbezorgd logo"
+              src="img/440045-Thuisbezorgd-Logo-Orange-Primary-Hor-RGB-f879b8-large-1661348572.png"
+          /></a>
+        </div>
+        <div class="information-div">
+          <button class="btn btn-address">
+            <ion-icon class="location-icon" name="location-outline"></ion-icon>
+            5642EH Eindhoven
+          </button>
+          <div class="delivery-pickup">
+            <button class="btn btn-delivery">
+              <ion-icon class="delivery-icon" name="bicycle-outline"></ion-icon>
+              Delivery
+            </button>
+            <button class="btn btn-pickup">Pick-up</button>
+          </div>
+        </div>
+        <div class="flag-more-options-div">
+          <img class="country-flag" alt="Country flag" src="img/DUTCH-1.png" />
+          <button class="btn-nav">
+            <ion-icon class="icon-nav" name="menu-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="second-part-header">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">Groceries</a></li>
+            <li><a class="main-nav-link" href="#">Shops</a></li>
+            <li><a class="main-nav-link" href="#">Offers</a></li>
+            <li><a class="main-nav-link" href="#">Italian style pizza</a></li>
+            <li><a class="main-nav-link" href="#">Shoarma</a></li>
+            <li><a class="main-nav-link" href="#">American style pizza</a></li>
+            <li><a class="main-nav-link" href="#">Poke Bowl</a></li>
+            <li><a class="main-nav-link" href="#">Fries</a></li>
+            <li><a class="main-nav-link" href="#">Work</a></li>
+            <li><a class="main-nav-link" href="#">Snacks</a></li>
+            <li><a class="main-nav-link" href="#">Mexican</a></li>
+            <li><a class="main-nav-link nav-cta" href="#">Show more</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-mainPage">
+        <div class="container grid">
+          <div class="filters">
+            <ul class="main-filters-list">
+              <li><a class="main-filters-option" href="#">246 places</a></li>
+              <li>
+                <a class="main-filters-option" href="#"
+                  >Open now
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span> </label
+                ></a>
+              </li>
+              <li>
+                <a class="main-filters-option" href="#"
+                  >Free delivery
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </a>
+              </li>
+              <div class="mini-options-section">
+                <li>
+                  <a class="main-filters-title" href="#"
+                    >Minimum order amount</a
+                  >
+                </li>
+                <li>
+                  <a class="main-filters-option-min" href="#"
+                    ><ion-icon
+                      class="radio-btn-on"
+                      name="radio-button-on-outline"
+                    ></ion-icon>
+                    Show all (246)</a
+                  >
+                </li>
+                <li>
+                  <a class="main-filters-option-min" href="#"
+                    ><ion-icon
+                      class="radio-btn-off"
+                      name="radio-button-off-outline"
+                    ></ion-icon>
+                    €10,00 or less (22)</a
+                  >
+                </li>
+                <li>
+                  <a class="main-filters-option-min" href="#"
+                    ><ion-icon
+                      class="radio-btn-off"
+                      name="radio-button-off-outline"
+                    ></ion-icon>
+                    €15,00 or less (22)</a
+                  >
+                </li>
+              </div>
+              <div class="mini-options-section">
+                <li>
+                  <a class="main-filters-title" href="#">Ratings</a>
+                </li>
+                <li>
+                  <ion-icon
+                    class="star-icon-ratings"
+                    name="star-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon-ratings"
+                    name="star-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon-ratings"
+                    name="star-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon-ratings"
+                    name="star-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon-ratings"
+                    name="star-outline"
+                  ></ion-icon>
+                </li>
+              </div>
+              <div class="mini-options-section">
+                <li>
+                  <a class="main-filters-title" href="#">Offers and savings</a>
+                </li>
+                <li>
+                  <a class="main-filters-option-min" href="#"
+                    ><ion-icon
+                      class="square-icon"
+                      name="square-outline"
+                    ></ion-icon>
+                    Offers (52)</a
+                  >
+                </li>
+                <li>
+                  <a class="main-filters-option-min" href="#">
+                    <ion-icon
+                      class="square-icon"
+                      name="square-outline"
+                    ></ion-icon>
+                    StampCards (123)</a
+                  >
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div class="restaurants">
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name"></label>
+                <input
+                  class="input-field"
+                  id="places-items"
+                  type="text"
+                  placeholder="Places and items"
+                />
+              </div>
+
+              <div class="sort-by-element">
+                <label for="sort-by">Sort by</label>
+                <select id="sort-by" required>
+                  <option value="">Best match</option>
+                  <option value="friends">Reviews</option>
+                  <option value="youtube">Distance</option>
+                  <option value="podcast">Estimated delivery time</option>
+                  <option value="facebook">Most popular</option>
+                  <option value="others">Min. order amount</option>
+                </select>
+              </div>
+            </form>
+            <div class="restaurant-card">
+              <img
+                class="ritos-picture"
+                alt="Ritos restaurant meal"
+                src="img/POKEBOWL-2.jpg"
+              />
+              <div class="infomation-part">
+                <p class="description">
+                  Ritos - Fresh Mex en Pokebowls Eindhoven Nieuwstraat
+                </p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>4.1</strong> (448) .
+                  <ion-icon name="bag-outline"></ion-icon> Min. € 17.49</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>30-55 min .<ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon>
+                  € 1.79 . Sponsored</span
+                >
+                <span class="free-delivery">Free delivery from € 34.99</span>
+              </div>
+            </div>
+            <div class="restaurant-card">
+              <img
+                class="starbucks-picture"
+                alt="Starbucks coffee"
+                src="img/SB-1.jpg"
+              />
+              <div class="infomation-part">
+                <p class="description">
+                  Starbucksbucks Eindhoven Hermanus Boexstraat
+                </p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>2.7</strong> (21) .
+                  <ion-icon name="bag-outline"></ion-icon> Min. € 15.49</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>25-45 min .
+                  <ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon
+                  >€ 3.79 . Sponsored</span
+                >
+              </div>
+            </div>
+            <div class="restaurant-card">
+              <img
+                class="merhaba-picture"
+                alt="Merhaba restaurant meal"
+                src="img/Donner.jpg"
+              />
+              <div class="infomation-part">
+                <p class="description">Merhaba</p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>3.8</strong> (4)</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>20-25 min
+                  <ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon
+                  >€ 1.79</span
+                >
+              </div>
+            </div>
+            <div class="restaurant-card">
+              <img
+                class="spare-ribs-picture"
+                alt="Ribs restaurant meal"
+                src="img/spare-ribs.jpg"
+              />
+              <div class="infomation-part">
+                <p class="description">SpareRib express</p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>4.6</strong> (6261)
+                  <ion-icon name="bag-outline"></ion-icon> . Min. € 15.95</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>25-50 min .
+                  <ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon
+                  >€ 1.50 . Sponsored</span
+                >
+                <span class="free-delivery">Free delivery from € 75.00</span>
+              </div>
+            </div>
+            <div class="restaurant-card">
+              <img
+                class="Thai-picture"
+                alt="Thai restaurant meal"
+                src="img/thai.jpg"
+              />
+              <div class="infomation-part">
+                <p class="description">Thai by June</p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>4.4</strong> (123) .
+                  <ion-icon name="bag-outline"></ion-icon> Min. € 25.00</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>50-80 min .<ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon>
+                  € 3.99 . Sponsored</span
+                >
+              </div>
+            </div>
+            <div class="restaurant-card">
+              <img
+                class="Eethuis-picture"
+                alt="Eethuis restaurant meal"
+                src="img/kapsalon-hawai.jpg"
+              />
+              <div class="infomation-part">
+                <p class="description">Eethuis De Gulden</p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>4.8</strong> (2k)</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>20-45 min .<ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon>
+                  € 2.50</span
+                >
+              </div>
+            </div>
+            <div class="restaurant-card">
+              <img
+                class="mcdonalds-picture"
+                alt="mcdonalds restaurant meal"
+                src="img/mcdonalds.png"
+              />
+              <div class="infomation-part">
+                <p class="description">McDonald's Markt</p>
+                <span class="additional-info"
+                  ><ion-icon class="star-icon" name="star"></ion-icon
+                  ><strong>2.7</strong> (3k) .
+                  <ion-icon name="bag-outline"></ion-icon> Min. € 15.00</span
+                >
+                <span class="additional-info"
+                  ><ion-icon name="time-outline"></ion-icon>30-50 min .<ion-icon
+                    class="delivery-icon"
+                    name="bicycle-outline"
+                  ></ion-icon>
+                  € 3.49 . Sponsored</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
